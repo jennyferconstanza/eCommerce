@@ -9,7 +9,7 @@ Tag.init(
     // define columns
     id: {
       type: DataTypes.INTEGER,
-      notNull: true,
+      allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
@@ -23,7 +23,7 @@ Tag.init(
     freezeTableName: true,
     underscored: true,
     modelName: "tag",
-  }
+  },
 );
 
 module.exports = Tag;

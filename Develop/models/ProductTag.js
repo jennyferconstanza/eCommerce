@@ -1,16 +1,14 @@
 const { Model, DataTypes } = require("sequelize");
 
 const sequelize = require("../config/connection");
-const Product = require("../models/Product");
-const Tag = require("../models/Tag");
 
-class ProductTag extends Model {}
+class ProductTag extends Model { }
 
 ProductTag.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      notNull: true,
+      allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
@@ -35,7 +33,7 @@ ProductTag.init(
     freezeTableName: true,
     underscored: true,
     modelName: "product_tag",
-  }
+  },
 );
 
 module.exports = ProductTag;
