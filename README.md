@@ -28,4 +28,4 @@ Once the user has entered their MySQL username and password, the user must sourc
 Lastly, to connect to the server, the user must run `npm start`.
 
 ## Links 
-[URL](https://drive.google.com/file/d/1wGubRAVFypEkvjz25rqam52l4XmUpdwD/view)
+[URL to Demo](https://drive.google.com/file/d/1wGubRAVFypEkvjz25rqam52l4XmUpdwD/view)
